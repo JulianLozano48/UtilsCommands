@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+hr {
+  padding: 8px;
+  color: #333;
+  height: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: none;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b1eee928;
+}
+
+nav i.fa-brands {
+  font-size: 1.5rem;
+}
+
+#buttonGit {
+  color: #f5584d;
+}
+
+#buttonDocker {
+  color: #0db7ed;
+}
+
+#buttonDjango {
+  color:  #3776AB;
+}
+
+#buttonSQL {
+  color:  #12444d;
+}
+
+#buttonBash {
+  color:  #36362a;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+code {
+  background-color: #dadada;
+  font-family: monospace;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+#icon_title {
+  display: inline-block;
+  background-image: url('assets/icons/tittle.svg');
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left center;
+  padding-left: 20px; /* espacio para el icono */
+}
+
+  

@@ -1,0 +1,70 @@
+
+<ul class="list-disc list-inside space-y-2">
+    <h2 class="text-2xl font-semibold mb-4">Started</h2>
+    <li><strong>Clonar repository: </strong>
+        <code>git clone 'url'</code>
+    </li>
+    
+
+    <h2 class="text-2xl font-semibold mb-4">Branchs</h2>
+    <li> <strong>Listar ramas: </strong>
+        <code>git branch</code>
+    </li>
+    <li> <strong>Crear nueva rama: </strong>
+        <code>git branch 'branch_name' </code>
+    </li>
+    <li> <strong>Cambiar rama: </strong>
+        <code>git checkout 'branch_name' </code>
+    </li>
+    <li> <strong>Crear nueva rama en base a la actual: </strong>
+        <code>git checkout -b 'branch_name'</code>
+    </li>
+    <li> <strong>Fusiona rama: </strong>
+        <code>git merge 'branch_name'</code>
+    </li>
+
+
+    <h2 class="text-2xl font-semibold mb-4">Commits</h2>
+    <li> <strong>Crear commit con mensaje: </strong>
+        <code>git commit -m "message"</code>
+    </li>
+    <li> <strong>Mostrar estado: </strong>
+        <code>git status</code>
+    </li>
+    <li> <strong>Agregar archivo: </strong>
+        <code>git add 'name_file'</code>
+    </li>
+    <li> <strong>Agregar todos los archivo: </strong>
+        <code>git add .</code>
+    </li>
+
+
+    <h2 class="text-2xl font-semibold mb-4">Pushs</h2>
+    <li> <strong>Subir cambios: </strong>
+        <code>git push</code>
+    </li>
+    <li> <strong>Subir cambios SIN rama publicada: </strong>
+        <code>git push --set-upstream origin 'branch'</code>
+    </li>
+
+
+    <h2 class="text-2xl font-semibold mb-4">Pulls</h2>
+    <li> <strong>Bajar cambios de una rama remota: </strong>
+        <code>git pull origin 'branch' --no-rebase</code>
+    </li>
+
+    <h2 class="text-2xl font-semibold mb-4">Revertir y corregir</h2>
+    <li> <strong>Remover archivo que se ha añadido: </strong>
+        <code>git reset 'name_-file'</code>
+    </li>
+    <li> <strong>Revierte todo al ultimo commit: </strong>
+        <code>git reset --hard</code>
+    </li>
+    <li> <strong>Revierte un archivo a su última versión: </strong>
+        <code>git checkout -- 'name_-file'</code>
+    </li>
+    <li> <strong>Crea un nuevo commit que revierte uno anterior: </strong>
+        <code>git revert 'id_commit'</code>
+    </li>
+    
+</ul>
